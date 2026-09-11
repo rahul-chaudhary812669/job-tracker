@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9000/jobtracker
+    username: testUser
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8080
+
+jwt:
+  secret: 12764wdchfde27sxyvfdssxnbsyqqxxuew
+  expiration: 86400000
+
+gemini:
+  api:
+    key: ${gemini-api-key}

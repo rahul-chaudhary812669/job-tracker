@@ -1,0 +1,21 @@
+# Backend
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
+EOF
+
+backend/src/main/resources/application.yml
