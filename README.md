@@ -23,7 +23,7 @@ A full-stack web application to track job applications with an AI-powered resume
 
 | Layer    | Technology                                            |
 | -------- | ----------------------------------------------------- |
-| Backend  | Spring Boot 3, Spring Security, Spring Data JPA       |
+| Backend  | Spring Boot , Spring Security, Spring Data JPA       |
 | Auth     | JWT (jjwt library)                                    |
 | Database | PostgreSQL                                            |
 | Frontend | React 18, Vite, React Router v6                       |
